@@ -175,8 +175,16 @@ h4 {
   transform: scale(1.7);
 }
 
+.circle1{
+  border: solid 1.1rem;
+  border-radius: 100%;
+  background-color: #FFF;
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
+}
+
 .box3 {
-  position: relative;
   margin: 0;
   text-align: center;
 }
@@ -209,6 +217,7 @@ h4 {
   width: 15rem;
   font-weight: 900;
   font-size: 3rem;
+  margin: auto;
 }
 
 .gr {
