@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon-32x32.png">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- CSS <-->
+  </-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <div class="container-fluid title">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="title-img">
+          <img src="images/logo-bonus.svg" alt="logo">
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="score-board">
+          <p>SCORE</p>
+          <h1 class="score">0</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="body">
+    <div class="game-icon">
+      <img src="images/bg-pentagon.svg" alt="pentagon">
+
+      <div class="paper circle pp">
+        <img src="images/icon-paper.svg" alt="paper">
+      </div>
+
+      <div class="rock circle rp">
+        <img src="images/icon-rock.svg" alt="rock">
+      </div>
+
+      <div class="scissors circle sp">
+        <img src="images/icon-scissors.svg" alt="scissors">
+      </div>
+
+      <div class="lizard circle lp">
+        <img src="images/icon-lizard.svg" alt="lizard">
+      </div>
+
+      <div class="spock circle spp">
+        <img src="images/icon-spock.svg" alt="spock">
+      </div>
+
+    </div>
+
+    <div class="result">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="player">
+            <div class="player-selection box1"></div>
+            <h4 class="you">YOU</h4>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="pc">
+            <div class="pc-selection box2"></div>
+            <h4 class="computer">COMPUTER</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-box">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="box3">
+            <div class="player-selection box4"></div>
+            <h4 class="you">YOU</h4>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="gr">
+            <h1 class="game-result">Nothing here</h1>
+            <button class="btn btn-light result-btn" type="button" name="button">PLAY AGAIN ?</button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box3">
+            <div class="pc-selection box5"></div>
+            <h4 class="computer1">COMPUTER</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="rules">
+      <div class="rules-content">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1><strong>RULES</strong></h1>
+          </div>
+          <div class="col-sm-6">
+            <img class="close-btn" src="images/icon-close.svg" alt="close">
+          </div>
+        </div>
+        <div class="rules-img-cover">
+          <img class="rules-img" src="images/image-rules-bonus.svg" alt="rules">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn btn-outline-light rules-btn ">
+      <h3>RULES</h3>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+  <script src="gamePlay.js" charset="utf-8"></script>
+</body>
+
+</html>
