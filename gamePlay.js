@@ -1,6 +1,6 @@
-var playerSelection = ""
-var randomChosen = ""
-var chosen = ["paper", "rock", "scissors", "lizard", "spock"]
+var playerSelection = "";
+var randomChosen = randomChoose();
+var chosen = ["paper", "rock", "scissors", "lizard", "spock"];
 var score = 0;
 
 $(".circle").click(function() {
@@ -8,7 +8,7 @@ $(".circle").click(function() {
   $(".result").fadeIn(0);
 
   playerSelection = event.currentTarget.className.split(" ")[0];
-  randomChosen = randomChoose();
+  
   // create player's choice
   $(".player-selection").addClass(playerSelection + " circle");
   $(".player-selection").append("<img src='images/icon-" + playerSelection +
